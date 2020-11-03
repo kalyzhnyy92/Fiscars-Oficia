@@ -519,7 +519,7 @@ jQuery($ => {
                     comment: {
                         required: true
                     },
-                    text: {
+                    textarea: {
                         required: true
                     },
                     surname: {
@@ -542,7 +542,7 @@ jQuery($ => {
                     comment: {
                         required: "Напишите ваш отзыв про товар"
                     },
-                    text: {
+                    textarea: {
                         required: "Введите ваш вопрос"
                     },
                     surname: {
