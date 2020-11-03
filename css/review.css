@@ -1,0 +1,325 @@
+.review__popup {
+    background: #FFF;
+    max-width: 1026px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 4px;
+}
+
+.review__popup .mfp-close {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    font-size: 0;
+    line-height: 0;
+    background: url('../img/svg/icon-close.svg') no-repeat 0 0/100% 100%;
+    -webkit-transition: -webkit-transform .25s;
+    transition: -webkit-transform .25s;
+    -o-transition: transform .25s;
+    transition: transform .25s;
+    transition: transform .25s, -webkit-transform .25s;
+}
+
+.review__popup .mfp-close:hover {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.review__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.review__left {
+    padding: 56px 55px 63px 56px;
+    border-right: 1px solid rgba(58, 58, 58, 0.2);
+    max-width: 631px;
+}
+
+.review__title {
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    color: #333230;
+    margin-bottom: 16px;
+}
+
+.review__text {
+    font-family: 'Geometria', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #474542;
+    margin-bottom: 24px;
+}
+
+.review__assessment {
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #231F20;
+    margin-bottom: 8px;
+}
+
+.review__star {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 35px;
+}
+
+.review__gold {
+    margin-right: 12px;
+    width: 25px;
+    height: 24px;
+}
+
+.review__gold:last-child{
+    margin-right: 0;
+}
+
+.review__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.review__field {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.review__wrap > .review__field:nth-child(1){
+    margin-right: 24px;
+}
+
+.review__label {
+    display: block;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333230;
+    margin-bottom: 8px;
+}
+
+.review__input {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    border: 1px solid rgba(71, 69, 66, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px 12px 24px;
+    width: 100%;
+    height: 46px;
+}
+
+.review__input::-webkit-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__input::-moz-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__input:-ms-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__input::-ms-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__input::placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__input.error {
+    border: 1px solid red;
+}
+
+
+.review__group{
+    margin-bottom: 24px;
+}
+
+.review__textarea {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    border: 1px solid rgba(71, 69, 66, 0.2);
+    border-radius: 4px;
+    padding: 21px 24px;
+    width: 100%;
+    height: 85px;
+    resize: none;
+}
+
+.review__textarea::-webkit-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__textarea::-moz-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__textarea:-ms-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__textarea::-ms-input-placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__textarea::placeholder{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #202124;
+    opacity: 0.3;
+}
+
+.review__textarea.error {
+    border: 1px solid red;
+}
+
+.review__btn {
+    display: block;
+    padding: 12px 25px;
+    width: 199px;
+    height: 50px;
+    background: #FF8E00;
+    border-radius: 3px;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F0F0F0;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.review__btn:hover{
+    background: #ffa533;
+}
+
+.review__right {
+    padding: 56px 77px 56px 62px;
+}
+
+.review__link {
+    display: block;
+    text-decoration: none;
+}
+
+.review__picture {
+    margin-bottom: 24px;
+}
+
+.review__img {
+    max-width: 246px;
+}
+
+.review__name {
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #231F20;
+    margin-bottom: 24px;
+}
+
+.review__prices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.review__discount {
+    font-family: 'Geometria', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #A3A2A2;
+    text-decoration: line-through;
+    margin-right: 19px;
+}
+
+.review__currency {
+    font-size: 16px;
+}
+
+.review__cost {
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333230;
+}
