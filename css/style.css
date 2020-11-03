@@ -5150,7 +5150,7 @@ img{
     cursor: pointer;
 }
 
-.branch__text::placeholder{
+.branch__text{
     font-family: 'Geometria', sans-serif;
     font-weight: 500;
     font-size: 14px;
